@@ -22,13 +22,13 @@ public class TestGreeter {
 
 
    @Test
-   @DisplayName("Test for Name='Worldsss'")
+   @DisplayName("Test for Name='Worldssss'")
    public void testGreeter()
    {
 
-      g.setName("Worldsss");
-      assertEquals(g.getName(),"Worldsss");
-      assertEquals(g.sayHello(),"Hello Worldsss!");
+      g.setName("Worldssss");
+      assertEquals(g.getName(),"Worldssss");
+      assertEquals(g.sayHello(),"Hello Worldssss!");
    }
 
 }
