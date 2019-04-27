@@ -30,4 +30,5 @@ deploy:
   on:
     tags: false
     all_branches: true
+    condition: $TRAVIS_BRANCH =~ ^cameron|jon-kasper$
   
