@@ -29,4 +29,4 @@ deploy:
   skip_cleanup: true
   on:
     tags: false
-    condition: $TRAVIS_BRANCH =~ ^cameron|jon-kasper$
+    condition: $TRAVIS_BRANCH =~ ^cameron|jon-kasper|peter$
